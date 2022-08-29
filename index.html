@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/combine/npm/fullcalendar@5.11.3/main.min.css,npm/fullcalendar@5.11.3/main.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/combine/npm/fullcalendar@5.11.3,npm/fullcalendar@5.11.3/main.min.js,npm/fullcalendar@5.11.3/locales-all.min.js,npm/fullcalendar@5.11.3/locales-all.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="external-events">
+        <div id="external-events-listing">
+          <h4>Draggable Events</h4>
+          <div class="fc-event">My Event 1</div>
+          <div class="fc-event">My Event 2</div>
+          <div class="fc-event">My Event 3</div>
+          <div class="fc-event">My Event 4</div>
+          <div class="fc-event">My Event 5</div>
+        </div>
+        <p>
+          <input type="checkbox" id="drop-remove" checked="checked" />
+          <label for="drop-remove">remove after drop</label>
+        </p>
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <div class="col-md-6 mb-20">
+            <div id="calendar1"></div>
+          </div>
+
+          <div class="col-md-6 mb-20">
+            <div id="calendar2"></div>
+          </div>
+
+          <div class="col-md-6 mb-20">
+            <div id="calendar3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="clear: both"></div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+      integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
